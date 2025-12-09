@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #F9F6F2;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+.app {
+    width: 390px;     /* iPhone-like width */
+    background: #F9F6F2;
+    padding: 16px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+    font-size: 20px;
+}
+.navbar h1 {
+    font-size: 18px;
+    margin: 0;
+    font: Instrument Serif;
+}
+.search-bar input {
+    width: 100%;
+    padding: 12px 16px;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+.categories_scroll {
+overflow-x: auto;
+white-space: nowrap;
+margin-top: 16px;
+padding-bottom: 6px;
+}
+.categories {
+    display: inline-flex;
+    gap: 12px;
+}
+.active_category {
+    background-color: #F1E7DC;
+    padding:8px 16px;
+    border-radius: 50px;
+    border: 1px solid #ddd
+}
+.cat {
+    background-color: #F5E4F0;
+    padding: 8px 16px;
+    border-radius: 50px;
+    border: 1px solid #DDD;
+    font-size: 14px;
+}
+.menu-card {
+    background-color: #ffffff;
+    padding: 16px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.menu_dishes {
+    margin-top: 20px;          
+    display: flex;
+    flex-direction: column;   
+    gap: 16px;
+  
+}
+.menu-card img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;      
+    object-fit: cover; 
+}
+.menu-card .info{
+    flex: 1px;
+}
+.menu-card a { 
+    text-decoration: none;
+    color: #000000;
+}
+.menu-card h2 {
+    margin: 0;                 
+    font-size: 16px;
+    font-weight: bold;
+}
+.menu-card p {
+    margin: 4px 0;
+    font-size: 12px;
+    color: gray;
+}
+.menu-card .price {
+    font-weight: bold;
+    font-size: 14px;
+}
+.add_btn {
+    width: 80px;
+    height: 32px;
+    background: #F5E4F0;     
+    color: black;
+    border: none;
+    border-radius: 12px;     
+    font-size: 12px;
+    cursor: pointer; 
+    margin-top: 40px;
+}

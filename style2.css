@@ -1,0 +1,118 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #f9f6f2;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.allpage {
+  width: 390px;         
+  padding: 20px;
+  background: #f9f6f2;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.food-image img{
+    width: 260px;
+  height: 260px;
+  border-radius: 50%;   
+  object-fit: cover;
+  display: block;
+  margin: 0 auto; 
+}
+.back-arrow {
+    font-size: 28px;
+  cursor: pointer;
+}
+.cart-icon {
+    font-size: 28px;
+  cursor: pointer;
+}
+.food-title {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 8px;
+  font-size: 26px;
+  font-weight: 700;
+}
+.rating-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 15px;
+}
+.stars {
+  color: gold;
+  font-size: 18px;
+}
+
+.review-count {
+  color: #666;
+  font-size: 14px;
+}
+.description {
+  font-size: 15px;
+  color: #444;
+  text-align: center;
+  line-height: 22px;
+  margin-bottom: 10px;
+}
+.Delivery-time {
+  text-align: center;
+  font-size: 15px;
+  color: #333;
+  margin-bottom: 20px;
+}
+.size-label {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.size-options {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.size-btn {
+  padding: 10px 24px;
+  border-radius: 20px;
+  border: none;
+  background: #F5DFF4;    
+  cursor: pointer;
+  font-size: 15px;
+}
+.size-btn.selected {
+  background: #f1E7DC;
+  font-weight: bold;
+}
+.add-bar {
+  background: #F8DDF8;   
+  padding: 16px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.add-cart-btn {
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.add-cart-btn a{
+  color: #000000;
+  text-decoration: none;
+}
+.price {
+  font-size: 20px;
+  font-weight: bold;
+}
